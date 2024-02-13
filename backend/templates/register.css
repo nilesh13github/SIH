@@ -1,0 +1,336 @@
+/* 
+
+body{
+background-color: #d6c9c4;
+}
+.element{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+.elemen>div {
+    
+    width: 100%;
+    margin: 15px;
+    text-align: right;
+    line-height: 15px;
+}
+.elemen {
+    margin-right: 198px
+   
+} */
+/* Reset some default styles */
+/* Reset some default styles */
+/* Reset some default styles *
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set a background color and font styles *
+body {
+  background-color: #f2f2f2;
+  font-family: Arial, sans-serif;
+}
+
+/* Center the registration form *
+.element {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+/* Style the registration container *
+.elemen {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  max-width: 400px;
+}
+
+/* Style the header *
+h1 {
+  color: #007bff;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+/* Style the form elements *
+form {
+  width: 100%;
+  text-align: left;
+}
+
+div {
+  margin: 15px 0;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+input[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 12px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  width: 100%;
+}
+
+input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+/* Style the flashed messages *
+ul {
+  list-style: none;
+  margin-top: 10px;
+}
+
+li {
+  font-size: 14px;
+  margin: 5px 0;
+}
+
+/* Style links *
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+*/
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set a background color and font styles *
+body {
+  background-color: #f0f0f0; /* Light gray background *
+  font-family: Arial, sans-serif;
+}
+
+/* Center the registration form *
+.element {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+/* Style the registration container *
+.elemen {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  max-width: 400px;
+}
+
+/* Style the header with court and law theme color *
+h1 {
+  color: #1c1c1c; /* Dark gray for heading *
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+/* Style the form elements *
+form {
+  width: 100%;
+  text-align: left;
+}
+
+div {
+  margin: 15px 0;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 5px;
+  color: #1c1c1c; /* Dark gray for labels *
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+input[type="submit"] {
+  background-color: #007bff; /* Royal blue for the submit button *
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 12px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  width: 100%;
+}
+
+input[type="submit"]:hover {
+  background-color: #0056b3; /* Darker blue on hover *
+}
+
+/* Style the flashed messages *
+ul {
+  list-style: none;
+  margin-top: 10px;
+}
+
+li {
+  font-size: 14px;
+  margin: 5px 0;
+}
+
+/* Style links 
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+*/
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set a background color and font styles */
+body {
+  background-color: #ffffff; /* Dark blue background */
+  font-family: Arial, sans-serif;
+}
+
+/* Center the registration form */
+.element {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+/* Style the registration container */
+.elemen {
+  background-color: #d6c9c4; /* Light beige */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  max-width: 400px;
+}
+
+/* Style the header with palette color #eb9405 (Golden Yellow) */
+h1 {
+  color: #eb9405;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+/* Style the form elements */
+form {
+  width: 100%;
+  text-align: left;
+}
+
+div {
+  margin: 15px 0;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 5px;
+  color: #a56d51; /* Light brown */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+input[type="submit"] {
+  background-color: #2c344c; /* Light yellow */
+  color: white; /* Dark blue text */
+  border: none;
+  border-radius: 4px;
+  padding: 12px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  width: 100%;
+}
+
+input[type="submit"]:hover {
+  background-color: #b29c5f; /* Dark blue on hover */
+  color: #ffffff; /* White text on hover */
+}
+
+/* Style the flashed messages */
+ul {
+  list-style: none;
+  margin-top: 10px;
+}
+
+li {
+  font-size: 14px;
+  margin: 5px 0;
+}
+
+/* Style links */
+a {
+  color: #007bff; /* Default link color */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}

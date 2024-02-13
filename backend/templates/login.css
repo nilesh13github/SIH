@@ -1,0 +1,90 @@
+/* Reset default margin and padding */
+body, h1, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color */
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the login container */
+.login-container {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: 400px;
+    margin: 0 auto; /* Center the container horizontally */
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+/* Style error messages */
+ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+li {
+    color: red;
+}
+
+/* Style the form container */
+.form-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Style form elements */
+div {
+    margin: 10px 0;
+}
+
+input[type="email"],
+input[type="password"],
+input[type="submit"] {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+input[type="submit"] {
+    background-color: #0088cc;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #0066aa;
+}
+
+/* Style user information */
+h2 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+    color: #333;
+}
+
+p {
+    text-align: center;
+    font-size: 16px;
+    color: #333;
+    margin-top: 10px;
+}

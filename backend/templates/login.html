@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <h1>Login</h1>
+    {% with messages = get_flashed_messages() %}
+        {% if messages %}
+        <ul>
+            {% for message in messages %}
+                <li style="color: red;">{{ message }}</li>
+            {% endfor %}
+        </ul>
+        {% endif %}
+    {% endwith %}
+    <!-- edit action by nilesh -->
+    <form action="/login" method="POST">
+        <div>
+            Email: <input type="email" name="email" value="email">
+        </div>
+        <div>
+            Password: <input type="password" name="password">
+        </div>
+        <div>
+            <input type="submit" value="Login">
+        </div>
+    </form>
+    {% if user %}
+        <h2>User Information:</h2>
+        <p><strong>Full Name:</strong> {{ user.fullname }}</p>
+        <p><strong>Email:</strong> {{ user.email }}</p>
+        <p><strong>Phone:</strong> {{ user.phone }}</p>
+    {% endif %}
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROFILE EDIT</title>
+</head>
+<body>
+    <h1><b>Hii {{user.fullname}}</b></h1>
+    <p>Your phone no. is {{user.phone}}</p>
+    <form action="/save" method="post">
+        <input type="email" placeholder="{{user.email}}" name="new_email">
+        
+
+        <p><h3>Change password </h3></p>
+        <input type="password" placeholder="Enter the old password" name="old_pswd">
+        <input type="password" placeholder="enter the new password" name="new_pswd1">
+        <input type="password" placeholder="re-enter the new Password" name="new_pswd2">
+        <input type="file" name="image" accept="image/*">
+        <br>
+        <input type="submit" value="Save changes">
+
+    </form>
+</body>
+</html>
